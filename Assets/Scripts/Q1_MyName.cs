@@ -2,11 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MyName : MonoBehaviour //Q1c
+public class Q1_MyName : MonoBehaviour //Q1c
 
 {
     public string nameOfStudent = "Elsa"; //Q1e
     private int A = 1, B = 2; //Q1k
+
+    public Q1_MyName(string nameOfStudent, int a, int b)
+    {
+        this.nameOfStudent = nameOfStudent;
+        A = a;
+        B = b;
+    }
 
 
     // Start is called before the first frame update
@@ -19,7 +26,7 @@ public class MyName : MonoBehaviour //Q1c
         //Q1h Name does not change once program is started as Start function is only called once.
         //Q1j debug statements rearranged to make sense in console
 
-       //Q1mCode to display change of variables int A & int B
+       //Q1m Code to display change of variables int A & int B
         Debug.Log("A" + A + "B" + B);
         SwitchAandB();
         Debug.Log("A" + A + "B" + B);

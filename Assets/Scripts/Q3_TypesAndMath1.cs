@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TypesAndMath1 : MonoBehaviour
+public class Q3_TypesAndMath1 : MonoBehaviour
 {
     public TMPro.TMP_Text text_display;
 

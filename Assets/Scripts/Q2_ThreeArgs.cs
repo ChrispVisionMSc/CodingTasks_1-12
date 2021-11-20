@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ThreeArgs : MonoBehaviour //Q2d
+public class Q2_ThreeArgs : MonoBehaviour //Q2d
 {
     public TMPro.TMP_Text text_display;
 

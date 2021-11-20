@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HelloTextMeshPro : MonoBehaviour //Q2a
+public class Q2_HelloTextMeshPro : MonoBehaviour //Q2a
 {
     public TMPro.TMP_Text text_display;
     public string TheName = "Type Name Here";

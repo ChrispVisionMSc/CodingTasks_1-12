@@ -2,8 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonoBehaviourExample : MonoBehaviour
+public class Q1_MonoBehaviourExample : MonoBehaviour
 {
+    public Q1_MonoBehaviourExample()
+    {
+    }
+
     //Awake is called as soon as the program starts
     void Awake()
     {
