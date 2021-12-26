@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Q4_IfStatements01 : MonoBehaviour
 {
-    //TextMesh Pro references to link variables and code outputs -
-    //to Text Mesh objects in Unity Scene.
+    //TextMesh Pro references to link variables and code outputs to Text Mesh objects in Unity Scene.
     public TMPro.TMP_Text Atext, Btext;
     public TMPro.TMP_Text Q4a, Q4b, Q4c, Q4d, Q4e, Q4f, Q4g;
     public TMPro.TMP_Text textBoolC, textBoolD, textBoolE;
@@ -60,8 +59,7 @@ public class Q4_IfStatements01 : MonoBehaviour
     }
 
 
-    //Q4f Function (static method) that takes three Boolean inputs and returns true -
-    //if majority of inputs is true.
+    //Q4f Function (static method) that takes three Boolean inputs and returns true if majority of inputs is true.
     static public bool majorityInputTrue(bool a, bool b, bool c)
     {
         int count = 0; //local int to record count increment each time a bool is true
@@ -83,8 +81,7 @@ public class Q4_IfStatements01 : MonoBehaviour
     }
 
 
-    //Q4g Function (static method) checks three float inputs to determine if lengths -
-    //would be suitable for construction of a triangle.
+    //Q4g Function (static method) checks three float inputs to determine if lengths would be suitable for construction of a triangle.
     static public bool triangularTest(float a, float b, float c)
     {
         if (Mathf.Abs(a * b * c) < 0.000001f) return false; //Use Mathf.Abs to disregard negative numbers.
