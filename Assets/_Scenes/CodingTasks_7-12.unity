@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &293450047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,7 +276,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &628819143
 Transform:
   m_ObjectHideFlags: 0
@@ -361,8 +361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input_display: {fileID: 861152258}
   output_display: {fileID: 1561095854}
-  stringIN: Type String Here
-  stringOUT: Reverse String
+  stringIn: ABCDEFGHIJKLMNOPQRSTUVWXYZ
 --- !u!114 &861152258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -669,13 +668,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030189636}
-  m_LocalRotation: {x: 0.2214048, y: -0, z: -0, w: 0.97518206}
-  m_LocalPosition: {x: 0, y: 9.72, z: -4.13}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -9, z: -57.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 25.583, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1030189640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -760,8 +759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input_display: {fileID: 861152258}
   output_display: {fileID: 1561095854}
-  stringIN: Type String Here
-  stringOUT: Reverse String
+  stringIn: ABCDEFGHIJKLMNOPQRSTUVWXYZ
 --- !u!114 &1561095854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -920,7 +918,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131443177}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 79, y: -3.1, z: 5.2668867}
+  m_LocalPosition: {x: 131.3, y: -3.1, z: 5.2668867}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 934430635}
@@ -943,5 +941,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input_display: {fileID: 861152258}
   output_display: {fileID: 1561095854}
-  stringIN: Type String Here
-  stringOUT: Reverse String
+  stringIn: ABCDEFGHIJKLMNOPQRSTUVWXYZ
